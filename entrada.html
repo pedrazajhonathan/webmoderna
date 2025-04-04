@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos aqui</title>
+    <style>
+      body{
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+      }
+      header h1{
+        color: #ffffff94;
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: 0px;
+        z-index: 1;
+        position: relative;
+        top: 20px;
+      
+      }
+   
+      
+      .relleno{
+        width: 100%;
+        position: absolute;
+        height: 500px;
+        background: linear-gradient(90deg , black 0% , transparent 100%);
+        top: 0;
+      }
+      .secion1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        top: 150px;
+        
+      }
+      .padre{
+        display: flex;
+        flex-direction: row;
+        gap: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .hijo{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+      }
+      .hijo img{
+        width: 300px;
+        box-shadow: 0 0 10px #000000;
+        height: 250px;
+        border-radius: 10px;
+      }
+      .hijo2{
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+      }
+      .hijo2 img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000000;
+      }
+      .padre p{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+      video{
+        width: 400px;
+        border-radius: 5px;
+        
+      }
+      .secion2{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        position: relative;
+        bottom: 10px;
+      }
+      .padre3{
+        display: flex;
+        gap: 150px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .hijo3{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+      }
+      .padre4{
+        display: flex;
+        gap: 50px;
+      
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .hijo4{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+      }
+      .secion2 p{
+        color: #000000;
+        font-size: 18px;
+      }
+      header video{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+      }
+      main h1{
+        color: rgb(0, 0, 0);
+        font-size: 4em;
+        text-align: center;
+        margin-bottom: 210px;
+        background: url(assets/pexels-morningtrain-18105.jpg);
+        background-size: cover;
+        background-clip: text;
+        color: transparent;
+        animation: hola 3s linear infinite alternate;
+        position: relative;
+        top: 100px;
+      }
+      @keyframes hola{
+        to{
+            background-position: 300px;
+        }
+      }
+      .hola{
+        width: 300px;
+        position: relative;
+        bottom: 60px;
+        left: 50px;
+        z-index: 1;
+      }
+      .parra{
+        color: #ffffff94;
+        font-size: 20px;
+        position: relative;
+        left: 15px;
+        position: relative;
+        top: 20px;
+
+      }
+      .parrafo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .hijo5{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+      .hijo5 img{
+        width: 30px;
+        position: relative;
+        right:70px;
+        top: 150px;
+      }
+      main{
+        position: relative;
+        top: 100px;
+      }
+      /* haciendo el responsiv */
+      @media (max-width:430px){
+        .hola h1{
+          font-size: 2em;
+        }
+        .hola p{
+          font-size: 1em;
+        }
+        .hola{
+          position: relative;
+          top: 10px;
+          width: 50%;
+          left: 10px;
+        }
+        .relleno{
+          height: 210px;
+        }
+        main{
+          position: relative;
+          top: 0;
+        }
+        .padre{
+          gap: 0;
+        }
+        .padre3{
+          gap: 0;
+        }
+      }
+      @media (min-width:1200px) and (max-width:1400px){
+        .secion1{
+          position: relative;
+          margin-top: 350px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header>
+      <div class="hola">  
+        <h1>fondo de pantalla </h1>
+        <p class="parra">te ofrecemos nuestros mejores servicio para que puedas sentirte comodo</p>
+        <div class="hijo5">
+          <img src="../primeraPaginaWeb.html/iconos/download_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          <img src="../primeraPaginaWeb.html/iconos/man_2_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          <img src="../primeraPaginaWeb.html/iconos/apps_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+        </div>
+      </div>
+        <div class="relleno"></div>  
+        <video autoplay loop muted src="assets/videos/98684-649311151_small.mp4"></video>
+    </header>
+    <main>
+        <section class="secion1">
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/5073414.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        este es un fondo moderno para personas juguetonas mejor conocidos como gamers
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/flat-lay-workstation-with-copy-space-laptop.jpg" alt="imagen2">
+                    <p class="parrafo2">
+                      una fondo inspirado en la progromacion y el oficio
+                    </p>
+                </div>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/pexels-danbuilds-633409.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        uno de los mejores fondos para las personas que le gustan el color negro
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/pexels-designecologist-1779487.jpg" alt="imagen2">
+                    <p class="parrafo2">una fondo inspirado en la progromacion y el oficio</p>
+                </div>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/pexels-designecologist-887349.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        un fondo para las personas con el corazon frio
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/pexels-felixmittermeier-956999.jpg" alt="imagen2">
+                    <p class="parrafo2">
+                        un fondo clasico para divertirse diseñando
+                    </p>
+                </div>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/pexels-ifreestock-619419.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        este fondo es si o si para los programadores
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/pexels-luis-gomes-166706-546819.jpg" alt="imagen2">
+                    <p class="parrafo2">
+                        este fondo es para los programadores senior
+                    </p>
+                </div>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/pexels-markusspiske-2004161.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        este fondo es ideal para que la gente vea que eres programador 
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/pexels-markusspiske-360591.jpg" alt="imagen2">
+                    <p class="parrafo2">
+                        este es un tipico fonso pero igual sigui siendo hermoso
+                    </p>
+                </div>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <img src="assets/pexels-morningtrain-18105.jpg" alt="imagen1">
+                    <p class="parrafo1">
+                        este tambien es un clasico de clasico para mantener tu ordenador vivo
+                    </p>
+                </div>
+                <div class="hijo2">
+                    <img src="assets/pexels-nietjuhart-1906440.jpg" alt="imagen2">
+                    <p class="parrafo2">
+                        usalo y veran la diferencia en tu ordenador
+                    </p>
+                </div>
+            </div>
+        </section>
+        <h1>fondos en movimiento</h1>
+        <section class="secion2">
+            <div class="padre3">
+                <div class="hijo3">
+                    <video autoplay loop muted src="assets/videos/203021-919745637_medium.mp4"></video>
+                    <p class="parrafo3">un fondo definido en aura es una bellesa</p>
+                </div>
+                <div class="hijo4">
+                    <video autoplay loop muted src="assets/videos/27706-365890968_tiny.mp4"></video>
+                    <p class="parrafo4">un fondo pefecto para los hackers</p>
+                </div>
+            </div>
+            <div class="padre3">
+                <div class="hijo3">
+                    <video autoplay loop muted src="assets/videos/36784-412873690_tiny.mp4"></video>
+                    <p class="parrafo3">un fondo definido en particulas que desaparecen</p>
+                </div>
+                <div class="hijo4">
+                    <video autoplay loop muted src="assets/videos/98684-649311151_small.mp4"></video>
+                    <p class="parrafo4">un fondo pefecto para los hackers</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      
+    </footer>
+</body>
+</html>
