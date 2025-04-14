@@ -4,225 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productos aqui</title>
-    <style>
-      body{
-        box-sizing: border-box;
-        background-color: rgb(255, 255, 255);
-        margin: 0;
-        padding: 0;
-      }
-      header h1{
-        color: #ffffff94;
-        font-size: 5em;
-        text-align: center;
-        margin-bottom: 0px;
-        z-index: 1;
-        position: relative;
-        top: 20px;
-      
-      }
-   
-      
-      .relleno{
-        width: 100%;
-        position: absolute;
-        height: 500px;
-        background: linear-gradient(90deg , black 0% , transparent 100%);
-        top: 0;
-      }
-      .secion1{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        flex-wrap: wrap;
-        align-items: center;
-        position: relative;
-        top: 150px;
-        
-      }
-      .padre{
-        display: flex;
-        flex-direction: row;
-        gap: 200px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .hijo{
-        width: 300px;
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        align-items: center;
-      }
-      .hijo img{
-        width: 300px;
-        box-shadow: 0 0 10px #000000;
-        height: 250px;
-        border-radius: 10px;
-      }
-      .hijo2{
-        width: 300px;
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        align-items: center;
-      }
-      .hijo2 img{
-        width: 300px;
-        height: 250px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px #000000;
-      }
-      .padre p{
-        color: rgb(0, 0, 0);
-        font-size: 18px;
-        text-transform: capitalize;
-      }
-      video{
-        width: 400px;
-        border-radius: 5px;
-        
-      }
-      .secion2{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        align-items: center;
-        position: relative;
-        bottom: 10px;
-      }
-      .padre3{
-        display: flex;
-        gap: 150px;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .hijo3{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        align-items: center;
-      }
-      .padre4{
-        display: flex;
-        gap: 50px;
-      
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .hijo4{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-        align-items: center;
-      }
-      .secion2 p{
-        color: #000000;
-        font-size: 18px;
-      }
-      header video{
-        width: 100%;
-        position: absolute;
-        top: 0;
-        z-index: -1;
-      }
-      main h1{
-        color: rgb(0, 0, 0);
-        font-size: 4em;
-        text-align: center;
-        margin-bottom: 210px;
-        background: url(assets/pexels-morningtrain-18105.jpg);
-        background-size: cover;
-        background-clip: text;
-        color: transparent;
-        animation: hola 3s linear infinite alternate;
-        position: relative;
-        top: 100px;
-      }
-      @keyframes hola{
-        to{
-            background-position: 300px;
-        }
-      }
-      .hola{
-        width: 300px;
-        position: relative;
-        bottom: 60px;
-        left: 50px;
-        z-index: 1;
-      }
-      .parra{
-        color: #ffffff94;
-        font-size: 20px;
-        position: relative;
-        left: 15px;
-        position: relative;
-        top: 20px;
-
-      }
-      .parrafo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .hijo5{
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-      }
-      .hijo5 img{
-        width: 30px;
-        position: relative;
-        right:70px;
-        top: 150px;
-      }
-      main{
-        position: relative;
-        top: 100px;
-      }
-      /* haciendo el responsiv */
-      @media (max-width:430px){
-        .hola h1{
-          font-size: 2em;
-        }
-        .hola p{
-          font-size: 1em;
-        }
-        .hola{
-          position: relative;
-          top: 10px;
-          width: 50%;
-          left: 10px;
-        }
-        .relleno{
-          height: 210px;
-        }
-        main{
-          position: relative;
-          top: 0;
-        }
-        .padre{
-          gap: 0;
-        }
-        .padre3{
-          gap: 0;
-        }
-      }
-      @media (min-width:1200px) and (max-width:1400px){
-        .secion1{
-          position: relative;
-          margin-top: 350px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="stilos.css">
 </head>
 <body>
     <header>
@@ -251,7 +33,7 @@
                 <div class="hijo2">
                     <img src="assets/flat-lay-workstation-with-copy-space-laptop.jpg" alt="imagen2">
                     <p class="parrafo2">
-                      una fondo inspirado en la progromacion y el oficio
+                      una fondo inspirado en la programacion y el oficio
                     </p>
                 </div>
             </div>
@@ -264,7 +46,7 @@
                 </div>
                 <div class="hijo2">
                     <img src="assets/pexels-designecologist-1779487.jpg" alt="imagen2">
-                    <p class="parrafo2">una fondo inspirado en la progromacion y el oficio</p>
+                    <p class="parrafo2">una fondo inspirado en la programacion y el oficio</p>
                 </div>
             </div>
             <div class="padre">
@@ -305,7 +87,7 @@
                 <div class="hijo2">
                     <img src="assets/pexels-markusspiske-360591.jpg" alt="imagen2">
                     <p class="parrafo2">
-                        este es un tipico fonso pero igual sigui siendo hermoso
+                        este es un tipico fondo pero igual sigue siendo hermoso
                     </p>
                 </div>
             </div>
@@ -333,7 +115,7 @@
                 </div>
                 <div class="hijo4">
                     <video autoplay loop muted src="assets/videos/27706-365890968_tiny.mp4"></video>
-                    <p class="parrafo4">un fondo pefecto para los hackers</p>
+                    <p class="parrafo4">un fondo perfecto para los hackers</p>
                 </div>
             </div>
             <div class="padre3">
@@ -349,7 +131,17 @@
         </section>
     </main>
     <footer>
-      
+      <div class="padrefooter">
+        <div class="hijofooter">
+          <p>copyright:jhonathanpedraza</p>
+          <p>todos los derechos reservados del autor</p>
+          <p>yaracuy-san felipe</p>
+        </div>
+        <div class="hijofooter">
+          <a target="_blank" href="mailto:padrazajhonathan9@Gmailcom">jhonathanpedraza9@Gmail.com</a>
+          <p>sigueme en tiktok como <a target="_blank" href="https://programadorjunior.tiktok">programadorjunior</a></p>
+          <p>visita mi pagina en <a target="_blank" href="https://multimobiliario.netlify.app">multimobiliario.netlify.app</a></p>
+      </div>
     </footer>
 </body>
 </html>
